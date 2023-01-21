@@ -1,6 +1,6 @@
 package week19_01_14_2023.selenium_drivers;
 
-public class RemoteWebDriver implements JavaScriptExecutor,TakeScreenShot,WebDriver{
+public class RemoteWebDriver implements JavaScriptExecuter,TakeScreenShot,WebDriver{
 
     @Override
     public void executeScript(String script) {
@@ -29,4 +29,13 @@ public class RemoteWebDriver implements JavaScriptExecutor,TakeScreenShot,WebDri
     }
 
 
+    @Override
+    public void findElement() {
+
+    }
+
+    @Override
+    public void findElements() {
+
+    }
 }
