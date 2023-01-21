@@ -9,6 +9,6 @@ public class AnimalPolymorphismTest {
         animal.move();
         Animal animal1=new Bird();
 
-        ((Bird)animal1).hunt();
+        ((Bird) animal1).hunt();
     }
 }

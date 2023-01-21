@@ -7,7 +7,7 @@ public class Bird extends Animal{
     }
 
     public void hunt(){
-        System.out.println("Bird is hunting insect");
+        System.out.println("Birds are eating insects");
     }
 
 
